@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>NaturaLuxe | Information Card 3</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- NAVBAR CSS -->
+  <link rel="stylesheet" href="navbar.css">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #ffffff;
+      color: #2f4f3b;
+    }
+
+    /* TITLE */
+    .section-title {
+      text-align: center;
+      margin: 50px 0 40px;
+      font-size: 28px;
+      color: #2f7d4f;
+    }
+
+    /* INFORMATION CARD */
+    .info-card {
+      max-width: 1100px;
+      margin: auto;
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      padding: 0 40px 80px;
+    }
+
+    .info-image {
+      width: 40%;
+      text-align: center;
+    }
+
+    .info-image img {
+      width: 100%;
+      border-radius: 18px;
+    }
+
+    .info-image p {
+      margin-top: 10px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .info-content {
+      width: 60%;
+      background: #9fbb92;
+      padding: 24px 28px;
+      border-radius: 18px;
+      color: white;
+    }
+
+    .info-content h3 {
+      margin-bottom: 14px;
+    }
+
+    .info-content ol {
+      padding-left: 18px;
+    }
+
+    .info-content li {
+      margin-bottom: 10px;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 900px) {
+      .info-card {
+        flex-direction: column;
+      }
+
+      .info-image,
+      .info-content {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR (STYLE DARI navbar.css) -->
+  <div class="navbar">
+    <div class="logo">🌿 NaturaLuxe</div>
+
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="blog.html">Blog</a>
+    </div>
+
+<div class="nav-actions">
+  <a href="login.html" class="icon-link">👤</a>
+  <a href="shop.html" class="icon-link">🛒</a>
+  <a href="shop.html" class="btn-link">
+    <button>Shop Now</button>
+  </a>
+</div>
+
+    </div>
+  </div>
+
+  <!-- TITLE -->
+  <h2 class="section-title">From The GreenVibe</h2>
+
+  <!-- INFORMATION CARD -->
+  <section class="info-card">
+    <div class="info-image">
+      <img src="b3.jpg" alt="Watering Basics for Houseplants">
+      <p>Watering Basics for Houseplants</p>
+    </div>
+
+    <div class="info-content">
+      <h3>Watering Basics for Houseplants</h3>
+      <ol>
+        <li>
+          <strong>Know Your Plant</strong><br>
+          Different plants require different watering schedules.
+        </li>
+        <li>
+          <strong>Check Soil Moisture</strong><br>
+          Always feel the soil before watering to avoid overwatering.
+        </li>
+        <li>
+          <strong>Use Proper Drainage</strong><br>
+          Ensure pots have drainage holes to prevent root rot.
+        </li>
+        <li>
+          <strong>Water Thoroughly</strong><br>
+          Let water flow out from the bottom of the pot.
+        </li>
+        <li>
+          <strong>Adjust by Season</strong><br>
+          Plants need less water during cooler months.
+        </li>
+      </ol>
+    </div>
+  </section>
+
+</body>
+</html>

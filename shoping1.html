@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shoping 1 | NaturaLuxe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- NAVBAR CSS -->
+  <link rel="stylesheet" href="navbar.css">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #ffffff;
+      color: #2f4f3b;
+    }
+
+    /* ===== TITLE ===== */
+    .shop-title {
+      text-align: center;
+      margin: 40px 20px 10px;
+      font-size: 28px;
+      color: #2f7d4f;
+    }
+
+    .shop-subtitle {
+      text-align: center;
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 40px;
+    }
+
+    /* ===== SHOP LAYOUT ===== */
+    .shop-container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 0 40px;
+      display: grid;
+      grid-template-columns: 1fr 1.4fr;
+      gap: 30px;
+    }
+
+    .product-large {
+      background: #e0e0e0;
+      border-radius: 20px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .product-large img {
+      width: 100%;
+      max-width: 250px;
+      margin: auto;
+    }
+
+    .product-large h3 {
+      margin-top: 16px;
+      font-size: 16px;
+    }
+
+    .product-large p {
+      margin-top: 6px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .right-section {
+      display: grid;
+      grid-template-rows: auto 1fr;
+      gap: 20px;
+    }
+
+    .highlight-card {
+      background: #9fbb92;
+      color: white;
+      border-radius: 20px;
+      padding: 24px;
+    }
+
+    .highlight-card h2 {
+      margin-bottom: 10px;
+    }
+
+    .highlight-card p {
+      font-size: 14px;
+      line-height: 1.6;
+      margin-bottom: 14px;
+    }
+
+    .highlight-card button {
+      background: white;
+      color: #2f7d4f;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .small-products {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    .small-card {
+      background: #e0e0e0;
+      border-radius: 16px;
+      padding: 14px;
+      text-align: center;
+    }
+
+    .small-card img {
+      width: 100%;
+      max-width: 140px;
+    }
+
+    @media (max-width: 900px) {
+      .shop-container {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- NAVBAR (SAMA DENGAN SEBELUMNYA) -->
+<div class="navbar">
+  <div class="logo">🌿 NaturaLuxe</div>
+
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="about.html">About</a>
+    <a href="blog.html">Blog</a>
+  </div>
+
+<div class="nav-actions">
+  <a href="login.html" class="icon-link">👤</a>
+  <a href="shop.html" class="icon-link">🛒</a>
+  <a href="shop.html" class="btn-link">
+    <button>Shop Now</button>
+  </a>
+</div>
+
+</div>
+
+<!-- TITLE -->
+<h1 class="shop-title">Our Shop Plants</h1>
+<p class="shop-subtitle">
+  Each plant in our shop is chosen for its beauty,<br>
+  ease of care, and ability to elevate your living environment.
+</p>
+
+<!-- SHOP CONTENT -->
+<section class="shop-container">
+
+  <div class="product-large">
+    <img src="t1.png">
+    <h3>Monstera deliciosa</h3>
+    <p>Rp. 50.000</p>
+  </div>
+
+  <div class="right-section">
+    <div class="highlight-card">
+      <h2>Monstera Deliciosa</h2>
+      <p>
+        Monstera deliciosa is a tropical plant known for its
+        unique split leaves. Perfect for indoor decoration
+        and easy maintenance.
+      </p>
+      <a href="pembayaran.html">
+       <button>Shop Now</button>
+      </a>
+    </div>
+
+    <div class="small-products">
+      <div class="small-card">
+        <img src="t2.png">
+      </div>
+      <div class="small-card">
+        <img src="t3.png">
+      </div>
+    </div>
+  </div>
+
+</section>
+
+</body>
+</html>

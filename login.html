@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login | NaturalLuxe</title>
+
+<!-- NAVBAR CSS -->
+<link rel="stylesheet" href="navbar.css">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background:#1e1e1e;
+}
+
+/* FORM AREA */
+.auth-wrapper{
+  min-height:calc(100vh - 70px);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:linear-gradient(135deg,#2f7d4c,#4caf50);
+}
+
+.auth-card{
+  background:#09561;
+  padding:32px;
+  width:360px;
+  border-radius:18px;
+  box-shadow:0 20px 40px rgba(0,0,0,0.25);
+  text-align:center;
+}
+
+.auth-card h2{
+  color:#ffffff;
+  margin-bottom:22px;
+  font-size:26px;
+}
+
+.auth-card input{
+  width:100%;
+  padding:12px 14px;
+  border:none;
+  border-radius:6px;
+  margin-bottom:14px;
+  font-size:14px;
+}
+
+.auth-card p{
+  color:white;  
+  font-size:12px;
+  margin:10px 0;
+}
+
+.auth-card p a{
+  color:white;
+  font-weight:bold;
+  text-decoration:none;
+}
+
+.auth-card button{
+  margin-top:10px;
+  background:#2f6f4e;
+  color:#fff;
+  border:none;
+  padding:10px 26px;
+  border-radius:20px;
+  font-size:14px;
+  font-weight:bold;
+  cursor:pointer;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR (STYLE DARI navbar.css) -->
+<div class="navbar">
+  <div class="logo">🌿 NaturaLuxe</div>
+
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="about.html">About</a>
+    <a href="blog.html">Blog</a>
+  </div>
+
+    <div class="nav-actions">
+  <a href="login.html" class="icon-link">👤</a>
+  <a href="shop.html" class="icon-link">🛒</a>
+  <a href="shop.html" class="btn-link">
+    <button>Shop Now</button>
+  </a>
+ </div>
+
+</div>
+
+<div class="auth-wrapper">
+  <div class="auth-card">
+    <h2>Sign In</h2>
+    <input type="email" placeholder="Email">
+    <input type="password" placeholder="Password">
+    <p>Belum punya akun? <a href="register.html">Register sekarang</a></p>
+    <a href="index.html">
+     <button>Sign In</button>
+    </a>
+  </div>
+</div>
+
+</body>
+</html>

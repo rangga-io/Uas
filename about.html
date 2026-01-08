@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NaturaLuxe | About</title>
+
+  <!-- NAVBAR CSS -->
+  <link rel="stylesheet" href="navbar.css">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #f6f8f6;
+      color: #333;
+    }
+
+
+    /* ABOUT */
+    .about {
+      padding: 80px 60px;
+      text-align: center;
+    }
+
+    .about h1 {
+      font-size: 36px;
+      color: #2f6f4e;
+      margin-bottom: 14px;
+    }
+
+    .about-desc {
+      max-width: 620px;
+      margin: 0 auto 60px;
+      font-size: 14px;
+      color: #555;
+      line-height: 1.7;
+    }
+
+    .about-content {
+      display: grid;
+      grid-template-columns: 1fr 300px 1fr;
+      align-items: center;
+      gap: 40px;
+    }
+
+    .about-feature {
+      text-align: left;
+    }
+
+    .about-feature.right {
+      text-align: right;
+    }
+
+    .about-feature h3 {
+      font-size: 16px;
+      margin-bottom: 6px;
+      color: #2f6f4e;
+    }
+
+    .about-feature p {
+      font-size: 13px;
+      color: #666;
+      line-height: 1.6;
+    }
+
+    .about-image img {
+      width: 100%;
+      max-width: 400px;
+    }
+
+
+    .about-bottom img {
+      width: 100%;
+      height: 50px;
+      object-fit: cover;
+      display: block;
+      filter: blur(1px);
+    }
+
+
+    @media (max-width: 900px) {
+      .about {
+        padding: 60px 30px;
+      }
+
+      .about-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+
+      .about-feature,
+      .about-feature.right {
+        text-align: center;
+      }
+
+      .about-image img {
+        margin: 20px 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- NAVBAR (DARI navbar.css) -->
+<div class="navbar">
+  <div class="logo">🌿 NaturaLuxe</div>
+
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="about.html">About</a>
+    <a href="blog.html">Blog</a>
+  </div>
+
+  <div class="nav-actions">
+  <a href="login.html" class="icon-link">👤</a>
+  <a href="shop.html" class="icon-link">🛒</a>
+  <a href="shop.html" class="btn-link">
+    <button>Shop Now</button>
+  </a>
+</div>
+
+  </div>
+</div>
+
+<!-- ABOUT CONTENT -->
+<section class="about">
+  <h1>Why Shop With NaturaLuxe ?</h1>
+  <p class="about-desc">
+    From discovering your favorite plants to having them delivered to your home,
+    we create a seamless, enjoyable, and stress-free shopping experience.
+  </p>
+
+  <div class="about-content">
+    <div class="about-feature">
+      <h3>🚚 Free and Fast Delivery</h3>
+      <p>We ship your plants quickly and carefully, so they arrive in perfect condition.</p>
+      <br>
+      <h3>↩️ Hassle-Free Return</h3>
+      <p>Your satisfaction matters, and returns are made effortless.</p>
+    </div>
+
+    <div class="about-image">
+      <img src="nt.png" alt="Plant">
+    </div>
+
+    <div class="about-feature right">
+      <h3>🎧 24/7 Customer Support</h3>
+      <p>We’re here whenever you need guidance or support.</p>
+      <br>
+      <h3>🔒 Secure Payment</h3>
+      <p>Your payment and personal data are fully protected.</p>
+    </div>
+  </div>
+</section>
+
+<section class="about-bottom">
+  <img src="rp.jpg" alt="Plants Background">
+</section>
+
+</body>
+</html>

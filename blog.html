@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NaturaLuxe | Blog</title>
+
+  <!-- NAVBAR CSS -->
+  <link rel="stylesheet" href="navbar.css">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #f6f8f6;
+      color: #333;
+    }
+
+
+    /* BLOG */
+    .blog {
+      padding: 70px 60px;
+      text-align: center;
+    }
+
+    .blog h1 {
+      font-size: 36px;
+      color: #2f6f4e;
+      margin-bottom: 50px;
+    }
+
+    .blog-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+    }
+
+    .blog-card {
+      background: #fff;
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .blog-card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .blog-content {
+      padding: 20px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .blog-content h3 {
+      font-size: 16px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .blog-content p {
+      font-size: 14px;
+      color: #666;
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+
+    .blog-content a {
+      align-self: center;
+      background: #2f6f4e;
+      color: #fff;
+      text-decoration: none;
+      padding: 8px 18px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    /* FOOTER */
+    footer {
+      background: url(lp.jpeg) center / cover no-repeat;
+      color: #e5f4ea;
+      padding: 50px 60px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 40px;
+      margin-top: 80px;
+    }
+
+    footer h4 {
+      margin-bottom: 12px;
+    }
+
+    footer p,
+    footer a {
+      font-size: 14px;
+      color: #e5f4ea;
+      text-decoration: none;
+      line-height: 1.6;
+      display: block;
+      margin-bottom: 6px;
+    }
+
+
+    @media (max-width: 900px) {
+      .blog-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      .blog {
+        padding: 50px 24px;
+      }
+
+
+      footer {
+        grid-template-columns: 1fr;
+        padding: 40px 24px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- NAVBAR (DARI navbar.css) -->
+<div class="navbar">
+  <div class="logo">🌿 NaturaLuxe</div>
+
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="about.html">About</a>
+    <a href="blog.html">Blog</a>
+  </div>
+
+<div class="nav-actions">
+  <a href="login.html" class="icon-link">👤</a>
+  <a href="shop.html" class="icon-link">🛒</a>
+  <a href="shop.html" class="btn-link">
+    <button>Shop Now</button>
+  </a>
+</div>
+
+  </div>
+</div>
+<!-- BLOG -->
+<section class="blog">
+  <h1>From The GreenVibe Blog</h1>
+
+  <div class="blog-grid">
+    <div class="blog-card">
+      <img src="b1.jpg">
+      <div class="blog-content">
+        <div>
+          <h3>5 Easy Plants to Start With</h3>
+          <p>Ideal for first-time plant owners, these low-effort plants are easy to care for.</p>
+        </div>
+        <a href="informationcard1.html">Read Now</a>
+      </div>
+    </div>
+
+    <div class="blog-card">
+      <img src="b2.jpg">
+      <div class="blog-content">
+        <div>
+          <h3>Low-light Plants That Thrive</h3>
+          <p>Discover plants that grow beautifully even in low-light indoor spaces.</p>
+        </div>
+      <a href="informationcard2.html">Read Now</a>
+      </div>
+    </div>
+
+    <div class="blog-card">
+      <img src="b3.jpg">
+      <div class="blog-content">
+        <div>
+          <h3>Watering Basics for Houseplants</h3>
+          <p>Learn how to water your plants the right way to keep them healthy.</p>
+        </div>
+      <a href="informationcard3.html">Read Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div>
+    <h4>🌿 NaturaLux</h4>
+    <p>Take home one of our favorites – easy to care for, hard not to love.</p>
+  </div>
+
+  <div>
+    <h4>Homepage</h4>
+    <a href="#">About Us</a>
+    <a href="#">Shop</a>
+    <a href="#">Blog</a>
+  </div>
+
+  <div>
+    <h4>Legal</h4>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Terms of Service</a>
+    <a href="#">Return & Shipping</a>
+    <a href="#">FAQ</a>
+  </div>
+</footer>
+
+</body>
+</html>

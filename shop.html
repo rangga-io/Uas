@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NaturaLuxe | Shop</title>
+
+  <!-- NAVBAR CSS -->
+  <link rel="stylesheet" href="navbar.css">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #f6f8f6;
+    }
+
+    /* SHOP */
+    .shop-page {
+      padding: 80px 60px;
+      text-align: center;
+    }
+
+    .shop-page h1 {
+      font-size: 36px;
+      color: #2f6f4e;
+      margin-bottom: 12px;
+    }
+
+    .shop-desc {
+      max-width: 520px;
+      margin: 0 auto 50px;
+      font-size: 14px;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .shop-grid {
+      display: flex;
+      justify-content: center;
+      gap: 32px;
+      flex-wrap: wrap;
+    }
+
+    .shop-card {
+      width: 260px;
+      background: white;
+      border-radius: 18px;
+      padding: 24px;
+      box-shadow: 0 8px 22px rgba(0,0,0,0.12);
+    }
+
+    .shop-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: contain;
+      margin-bottom: 18px;
+    }
+
+    .shop-card h3 {
+      font-size: 16px;
+      margin-bottom: 6px;
+    }
+
+    .shop-card span {
+      color: #2f6f4e;
+      font-weight: bold;
+    }
+
+    .shop-card a {
+      display: block;
+      margin-top: 18px;
+      padding: 10px;
+      background: #2f6f4e;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+  <div class="logo">🌿 NaturaLuxe</div>
+
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="about.html">About</a>
+    <a href="blog.html">Blog</a>
+  </div>
+
+  <div class="nav-actions">
+  <a href="login.html" class="icon-link">👤</a>
+  <a href="shop.html" class="icon-link">🛒</a>
+  <a href="shop.html" class="btn-link">
+    <button>Shop Now</button>
+  </a>
+</div>
+
+</div>
+
+<!-- SHOP CONTENT -->
+<section class="shop-page">
+  <h1>Our Shop Plants</h1>
+  <p class="shop-desc">
+    Each plant in our shop is chosen for its beauty,
+    ease of care, and ability to elevate your living environment.
+  </p>
+
+  <div class="shop-grid">
+
+    <!-- CARD 1 -->
+    <div class="shop-card">
+      <img src="t1.png">
+      <h3>Monstera deliciosa</h3>
+      <span>Rp.50.000</span>
+      <a href="shoping1.html">Shop Now</a>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="shop-card">
+      <img src="t2.png">
+      <h3>Ficus benjamina</h3>
+      <span>Rp.50.000</span>
+      <a href="shoping2.html">Shop Now</a>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="shop-card">
+      <img src="t3.png">
+      <h3>Peace Lily</h3>
+      <span>Rp.50.000</span>
+      <a href="shoping3.html">Shop Now</a>
+    </div>
+
+  </div>
+</section>
+
+</body>
+</html>
